@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap CSS icons: https://icons.getbootstrap.com/#usage -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- JavaScript: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="./js/hacker-news.js" defer></script>
+    <title>safezone</title>
+</head>
+
+<body>
+  <header>
+    <div class="text-center"><img src="./assets/logo.png" alt="logo" width="200px"></div>
+    <nav class="navbar navbar-expand-lg navblauw">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class=" fs-3 bi-shield-fill shield"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 ">
+          <div class=" text-center navbar-collapse" id="navbarNavDropdown">
+            <li class="nav-item">
+                <a class="nav-link"  href="index.html">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" aria-current="page" href="diensten.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                DIENSTEN
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="diensten.html">Overzicht</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="realtime-accountbewaking.html">Realtime accountbewaking</a></li>
+                <li><a class="dropdown-item" href="slim-advies-voor-beveiliging.html">Slim advies voor beveiliging</a></li>
+                <li><a class="dropdown-item" href="veilige-vpn-opties.html">Veilige VPN-opties</a></li>
+                <li><a class="dropdown-item" href="virusscans-en-hackertests.html">Virusscans en hackertests</a></li>
+                <li><a class="dropdown-item" href="simualtie-van-hackpogingen.html">Simulatie van hackpogingen</a></li>
+                <li><a class="dropdown-item" href="platformveiligheidsgegevens.html">Platformveiligheidsgegevens</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRIJZEN & ABONNEMENTEN</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Zoeken..." aria-label="Search">
+            <button class="btn shield licht-button-blauw" type="submit"><i class=" fs-5 bi bi-search"></i></button>
+            <button class="mx-4 btn shield licht-button-blauw"type="button"><i class="fs-5 bi bi-person-circle"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+</header>
+ 
+ <div class="container">
+  <div class="row">
+ <main class="col-md-10">
+    <section class="row border-bottom  mt-3 py-3">
+        <h1 class=" veiligblauw text-uppercase fs-2">Onze diensten</h1>
+        <p>Welkom op de dienstenpagina van Safezone!<br>Hier vind je meer informatie over de verschillende services die we aanbieden om jouw digitale veiligheid te waarborgen.</p>
+      <hr>
+    <!----RIJ1-->
+    <article class=" col-12 col-sm-6 col-md-4">
+      <figure>
+          <img src="assets/Gerd-Altman.jpg" class="rounded d-block img-fluid" alt="Gerd-Altman">
+          <figcaption class="h6 small mt-2">© Gerd Altman</figcaption>
+      </figure>
+      <h2 class="ms-5 fw-bold fs-6">Realtime Accountbewaking</h2>
+      <p class="ms-5">Met Safezone kun je al je online accounts eenvoudig verbinden en krijg je real-time meldingen over verdachte inlogpogingen, inclusief gedetailleerde informatie, zodat je altijd op de hoogte bent en je accounts veilig blijven.</p>
+      <div class="text-center pb-3 ">
+        <button class=" text-center  col-5  btn gouden-button" type="button" href="realtime-accountbewaking.html"><a class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="realtime-accountbewaking.html">Meer info</a></button>
+      </div>
+    </article>
+
+    <article class=" col-12 col-sm-6 col-md-4">
+      <figure>
+          <img src="assets/sven-mieke.jpg" class="rounded d-block img-fluid" alt="Sven Mieke">
+          <figcaption class="h6 small mt-2">© Sven Mieke</figcaption>
+      </figure>
+      <h2 class="ms-5 fw-bold fs-6">Slim Advies voor Beveiliging</h2>
+      <p class="ms-5">Bescherm je accounts proactief met Safezone's expertise en advies. Ontdek hoe je sterke wachtwoorden genereert, tweefactorauthenticatie instelt en meer voor maximale beveiliging.<br><br></p>
+      <div class="text-center pb-3 ">
+          <button class=" text-center  col-5  btn gouden-button" type="button" href="slim-advies-voor-beveiliging.html" ><a class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="slim-advies-voor-beveiliging.html">Meer info</a></button>
+      </div>
+    </article>
+  
+
+
+        <article class="col-12 col-sm-6 col-md-4">
+            <figure>
+                <img src="assets/privecstasy.jpg" class="rounded mx-auto d-block img-fluid" alt="privecstasy">
+                <figcaption class="h6 small mt-2">© privecstasy</figcaption>
+            </figure>
+            <h2 class="ms-5 fw-bold fs-6">Veilige VPN-opties</h2>
+            <p class="ms-5">Safezone biedt een veilige VPN voor maximale online privacy. Surf veilig en anoniem, waar je ook bent, en bescherm jezelf tegen nieuwsgierige blikken en aanvallen.<br><br></p>
+            <div class=" text-center pb-3 ">
+                <button class=" text-center  col-5  btn gouden-button" type="button" href="veilige-vpn-opties.html"><a class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="veilige-vpn-opties.html">Meer info</a></button>
+                 </div>
+        </article>
+<!-------RIJ2-->
+<article class="col-12 col-sm-6 col-md-4 ">
+  <figure>
+      <img src="assets/thomas.jpg" class="rounded d-block img-fluid" alt="Thomas">
+      <figcaption class="h6 small mt-2">© Thomas</figcaption>
+  </figure>
+  <h2 class="ms-5 fw-bold fs-6">Virusscans en Hackerstests</h2>
+  <p class="ms-5">Laat je accounts scannen op virussen en hackers, verwijder schadelijke software en detecteer kwetsbaarheden om je te beschermen tegen gevaren.Ontdek onze geavanceerde virusscantechnologieën en hackertestdiensten om je digitale veiligheid naar een hoger niveau te tillen<br></p> 
+  <div class="text-center ">
+      <button class=" text-center  col-5  btn gouden-button" type="button" href="virusscans-en-hackertests.html"><a class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="virusscans-en-hackertests.html">Meer info</a></button>
+       </div>
+</article>
+
+<article class="col-12 col-sm-6 col-md-4 ">
+  <figure>
+      <img src="assets/gerd-altman2.jpg" class="rounded d-block img-fluid" alt="Gerd-Altman">
+      <figcaption class="h6 small mt-2">© Gerd Altman</figcaption>
+  </figure>
+  <h2 class="ms-5 fw-bold fs-6">Simulatie van Hackpogingen</h2>
+  <p class="ms-5">Identificeer zwakke plekken in je beveiliging met Safezone's hackpogingen-simulaties. Neem gerichte maatregelen om je accounts te beschermen tegen aanvallen. Ontdek onze geavanceerde hackpogingsimulatiediensten om de weerbaarheid van je digitale systemen te testen en te versterken</p>
+  <div class="text-center ">
+      <button class=" text-center  col-5  btn gouden-button" type="button" href="simualtie-van-hackpogingen.html"><a class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="simualtie-van-hackpogingen.html">Meer info</a></button>
+       </div>
+</article>
+
+<article class="pb-3 col-12 col-sm-6 col-md-4 ">
+  <figure>
+      <img src="assets/joffi.jpg" class="rounded mx-auto d-block img-fluid" alt="joffi">
+      <figcaption class="h6 small ms-3 mt-2">© joffi</figcaption>
+  </figure>
+  <h2 class="ms-5 fw-bold fs-6">Platformveiligheidsgegevens</h2>
+  <p class="ms-5">Met Safezone krijg je inzicht in de veiligheid van online platforms, zodat je weloverwogen beslissingen kunt nemen. Bescherm jezelf vandaag nog voor een veiligere online ervaring.Onze toegewijde experts staan klaar om je te helpen bij het versterken van je digitale beveiliging.</p>
+ <div class="text-center">
+ <button class="col-5  btn gouden-button" type="button" href="platformveiligheidsgegevens.html"><a class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="platformveiligheidsgegevens.html">Meer info</a> </button>
+  </div>
+</article>
+
+     </section>
+ </main>
+
+ <aside class="d-none d-md-block mt-5 col-12 col-md-2">
+<ul class="mt-5">
+  <li><a class="shield" href="#">Tips & Tricks</a></li>
+  <li><a class="shield" href="#">Community</a></li>
+  <li><a class="shield" target="_blank" href="https://news.ycombinator.com/">Hacker News</a></li>
+  <li><a class="shield" href="#">Meer over ons</a></li>
+</ul>
+ </aside>
+ 
+</div>
+  <div class="row">
+  <footer>
+    <div class="col  mx-5 ">
+    <h2 class="text-uppercase  fs-4 fw-bolder pt-4">contact</h2>
+    <p> Voor snelle antwoorden, vul het <a class="shield" href="contact.html" alt="contact">contactformulier</a> in bij problemen of vragen.<br>
+      <i class="bi bi-mailbox"></i> <a class="shield "href="mailto:safezone@outlook.be">safezone@outlook.be</a><br>
+      <i class="bi bi-telephone"></i> <a class="shield" href="tel: +32 399 / 88 77 66">+32 399 / 88 77 66</a></p>
+    <ul class="mx-1 list-inline socials">
+      <li class="list-inline-item">
+        <a class="shield" href="https://www.youtube.com" target="_blank">
+          <i class="bi bi-youtube fs-3"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="shield" href="https://www.instagram.com" target="_blank">
+          <i class="bi bi-instagram fs-3"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="shield" href="https://www.facebook.com" target="_blank">
+          <i class="bi bi-facebook fs-3"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="shield" href="https://twitter.com/" target="_blank">
+          <i class="bi bi-twitter-x fs-3 "></i>
+        </a>
+      </li>
+    </ul>
+    </div>
+    <p class="text-center">&copy; SAFEZONE CORP.</p>
+  </footer>
+  </div>
+ 
+</div>
+</div>
+ </body>
+ </html>
+
